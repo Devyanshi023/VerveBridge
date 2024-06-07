@@ -1,0 +1,5 @@
+/* Styling for the container class */
+.container {
+  max-width: 1080px; /* Setting maximum width to 1080px */
+  margin: 20px auto; /* Centering the container horizontally and adding a 20px margin at the top and bottom */
+}

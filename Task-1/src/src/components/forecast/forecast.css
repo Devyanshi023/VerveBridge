@@ -1,0 +1,83 @@
+/* Styling for the title label */
+.title {
+    font-size: 23px; /* Setting font size */
+    font-weight: 500; /* Setting font weight */
+    border-bottom: 2px solid; /* Adding a bottom border */
+}
+
+/* Styling for each daily forecast item */
+.daily-item {
+    background-color: #f5f7fa; /* Setting background color */
+    border-radius: 15px; /* Rounding the corners */
+    height: 40px; /* Setting height */
+    margin: 5px; /* Adding margin */
+    display: flex; /* Using flexbox for layout */
+    align-items: center; /* Centering items vertically */
+    cursor: pointer; /* Changing cursor to pointer on hover */
+    font-size: 14px; /* Setting font size */
+    padding: 5px 20px; /* Adding padding */
+}
+
+/* Styling for the small weather icons */
+.icon-small {
+    width: 45px; /* Setting width */
+}
+
+/* Styling for the day label */
+.day {
+    color: #2d668d; /* Setting text color */
+    flex: 1 1; /* Allowing flex item to grow and shrink */
+    font-weight: 500; /* Setting font weight */
+    margin-left: 15px; /* Adding left margin */
+}
+
+/* Styling for the weather description */
+.desc {
+    flex: 1 1; /* Allowing flex item to grow and shrink */
+    margin-right: 15px; /* Adding right margin */
+    text-align: right; /* Aligning text to the right */
+}
+
+/* Styling for the min-max temperature label */
+.min-max {
+    color: #0e847c; /* Setting text color */
+    font-weight: 600; /* Setting font weight */
+}
+
+/* Styling for the grid container in the details section */
+.daily-details-grid {
+    display: grid; /* Using grid layout */
+    grid-row-gap: 0; /* Setting row gap */
+    grid-column-gap: 15px; /* Setting column gap */
+    row-gap: 0; /* Setting row gap */
+    column-gap: 15px; /* Setting column gap */
+    flex: 1 1; /* Allowing flex item to grow and shrink */
+    grid-template-columns: auto auto; /* Defining the columns */
+    padding: 5px 15px; /* Adding padding */
+}
+
+/* Styling for each item in the details grid */
+.daily-details-grid-item {
+    display: flex; /* Using flexbox for layout */
+    height: 30px; /* Setting height */
+    justify-content: space-between; /* Spacing items evenly */
+    align-items: center; /* Aligning items to the center vertically */
+    background-color: rgb(191, 224, 246);
+    border-radius: 6px;
+    margin: 0 0 2px 2px;
+}
+
+/* Styling for the first label in each grid item */
+.daily-details-grid-item label:first-child {
+    color: rgb(10, 7, 164); /* Setting text color */
+    font-weight: 500; /* Setting font weight */
+    border-bottom: 1px solid; /* Adding a bottom border */
+    margin-left: 8px;
+}
+
+/* Styling for the last label in each grid item */
+.daily-details-grid-item label:last-child {
+    color: rgb(91, 61, 163); /* Setting text color */
+    font-weight: 600; /* Setting font weight */
+    margin-right: 8px;
+}
