@@ -40,7 +40,7 @@
 
 /* Styling for the min-max temperature label */
 .min-max {
-    color: #278b84; /* Setting text color */
+    color: #0e847c; /* Setting text color */
     font-weight: 600; /* Setting font weight */
 }
 
@@ -77,7 +77,7 @@
 
 /* Styling for the last label in each grid item */
 .daily-details-grid-item label:last-child {
-    color: rgb(100, 77, 153); /* Setting text color */
+    color: rgb(91, 61, 163); /* Setting text color */
     font-weight: 600; /* Setting font weight */
     margin-right: 8px;
 }
