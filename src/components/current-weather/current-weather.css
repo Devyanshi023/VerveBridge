@@ -1,0 +1,86 @@
+/* Main container for the weather component */
+.weather {
+    width: 400px; /* Setting the width of the component */
+    height: 300px; /* Setting the height of the component */
+    border-radius: 6px; /* Rounding the corners */
+    box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%); /* Adding a shadow effect */
+    color: aliceblue; /* Setting text color */
+    background-color: #343434; /* Setting background color */
+    margin: 20px auto 0 auto; /* Centering the component with margin */
+    padding: 0 20px 20px 20px; /* Adding padding inside the component */
+}
+
+/* Styling for the top and bottom sections */
+.top,
+.bottom {
+    display: flex; /* Using flexbox for layout */
+    justify-content: space-between; /* Spacing items evenly */
+    align-items: center; /* Aligning items to the center vertically */
+    padding: 4px; /* Adding padding inside the sections */
+}
+
+/* Styling for the city name */
+.city {
+    font-weight: 500; /* Setting font weight */
+    font-size: 25px; /* Setting font size */
+    line-height: 1; /* Setting line height */
+    margin: 0; /* Removing default margin */
+    padding-top: 10px; /* Adding padding to the top */
+    letter-spacing: 1px; /* Adding space between letters */
+}
+
+/* Styling for the weather description */
+.weather-desc {
+    font-weight: 400; /* Setting font weight */
+    font-size: 17px; /* Setting font size */
+    line-height: 1; /* Setting line height */
+    margin: 10px 0 0 0; /* Adding margin to the top */
+}
+
+/* Styling for the weather icon */
+.weather-icon {
+    width: 120px; /* Setting width of the icon */
+    height: 120px; /* Setting height of the icon */
+}
+
+/* Styling for the temperature text */
+.temp {
+    font-weight: 500; /* Setting font weight */
+    font-size: 50px; /* Setting font size */
+    width: auto; /* Setting width to auto */
+    letter-spacing: -2px; /* Adjusting letter spacing */
+    margin: 10px 0; /* Adding margin to the top and bottom */
+}
+
+/* Styling for the details section */
+.details {
+    width: 100%; /* Setting width to 100% */
+    padding-left: 40px; /* Adding padding to the left */
+}
+
+/* Styling for each row in the details section */
+.para-row {
+    display: flex; /* Using flexbox for layout */
+    justify-content: space-between; /* Spacing items evenly */
+    margin: 3px; /* Adding margin */
+}
+
+/* Styling for the labels in the details section */
+.para-label {
+    text-align: left; /* Aligning text to the left */
+    font-weight: 400; /* Setting font weight */
+    font-size: 15px; /* Setting font size */
+}
+
+/* Styling for the values in the details section */
+.para-value {
+    text-align: right; /* Aligning text to the right */
+    font-weight: 500; /* Setting font weight */
+    font-size: 15px; /* Setting font size */
+}
+
+/* Additional styling for the top label in the details section */
+.para-label.top {
+    border-bottom: 1px solid #fff; /* Adding a bottom border */
+    margin-bottom: 8px; /* Adding margin to the bottom */
+}
