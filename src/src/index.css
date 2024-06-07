@@ -1,0 +1,13 @@
+/* Styling for the body element */
+body {
+  margin: 0; /* Removing default margin */
+  font-family: "Roboto", Arial !important; /* Setting font family to Roboto and Arial with high importance */
+  -webkit-font-smoothing: antialiased; /* Smoothing fonts for better readability on WebKit browsers */
+  -moz-osx-font-smoothing: grayscale; /* Smoothing fonts for better readability on OS X browsers */
+  background-color: #a4cff0; /* Setting background color */
+}
+
+/* Styling for the code element */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; /* Setting font family for code elements to a series of monospaced fonts */
+}
